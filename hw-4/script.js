@@ -1,5 +1,6 @@
-let a = prompt('Number of hours');
+let a = prompt('Введіть кількість годин');
+let c = a * 60 ;
+let b = c * 60 ;
 
-let c = a * 60 * 60;
-
-alert (c);
+alert ('У '+ a + ' годинах \n' 
+        + c + ' хвилин, або ' + b + ' секунд');
