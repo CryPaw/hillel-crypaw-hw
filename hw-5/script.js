@@ -1,7 +1,7 @@
-let a = prompt('First number');
-let b = prompt('Second number');
-let c = prompt('Third number');
+let a = prompt('Перше число');
+let b = prompt('Друге число');
+let c = prompt('Третє число');
 
 const d = (+a + +b + +c)/3;
 
-alert (d);
+alert ('Середнє арифметичне цих чисел ' + d);
