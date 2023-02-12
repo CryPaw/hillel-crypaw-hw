@@ -1,5 +1,5 @@
-let a = prompt('First number');
-let b = prompt('Second number');
+let a = prompt('Перше число');
+let b = prompt('Друге число');
 
 const c = +a + +b;
 const d = a - b;
